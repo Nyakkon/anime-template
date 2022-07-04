@@ -7,8 +7,10 @@
 :root{
     --font-normal: #ffffff;
     --link-hover:
+    --link-click: rgba(252, 138, 138, 1);
 }
 
 html{
     
 }
+
