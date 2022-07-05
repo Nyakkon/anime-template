@@ -16,9 +16,12 @@
     --font-normal: #ffffff;
     --link-hover: rgb(255, 0, 0);
     --link-click: rgba(252, 138, 138, 1);
+
 }
 
-html{
-    
+[data-theme="light"] {
+
 }
+
+
 

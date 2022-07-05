@@ -1,0 +1,16 @@
+/*
+**
+** By Nyakko Neko
+** SASS
+** 
+*/
+@import url(./Helpers/_mixin.scss);
+@import url(./Helpers/_variables.scss);
+@import url(./Base/_customize.scss);
+@import url(./Base/_reset.scss);
+@import url(./Components/_buttons.scss);
+@import url(./Components/_card.scss);
+@import url(./Layouts/_carousel.scss);
+@import url(./Layouts/_footer.scss);
+@import url(./Layouts/_header.scss);
+@import url(./Layouts/_products.scss);/*# sourceMappingURL=main.css.map */
