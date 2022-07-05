@@ -10,6 +10,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -25,22 +30,7 @@
 
 @font-face {
     font-family: Google;
-    src: url(../font/static/DancingScript-Bold.ttf);
-}
-
-@font-face {
-    font-family: Google;
-    src: url(../font/static/DancingScript-Medium.ttf);
-}
-
-@font-face {
-    font-family: Google;
-    src: url(../font/static/DancingScript-Regular.ttf);
-}
-
-@font-face {
-    font-family: Google;
-    src: url(../font/static/DancingScript-SemiBold.ttf);
+    src: url(../font/DancingScript-VariableFont_wght.ttf);
 }
 
 body{
