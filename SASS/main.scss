@@ -15,28 +15,61 @@
 // Theme
 
 // Helpers
-@import url(./Helpers/_mixin.scss);
-@import url(./Helpers/_variables.scss);
+@import url(./Helpers/mixin);
+@import url(./Helpers/variables);
 
 // Vemdors
 // @import url(./Vendors/);
 
 // Base
-@import url(./Base/_customize.scss);
-@import url(./Base/_reset.scss);
+@import url(./Base/customize);
+@import url(./Base/reset);
 
 // Components
-@import url(./Components/_buttons.scss);
-@import url(./Components/_card.scss);
+@import url(./Components/buttons);
+@import url(./Components/card);
 
 // Layouts
-@import url(./Layouts/_carousel.scss);
-@import url(./Layouts/_footer.scss);
-@import url(./Layouts/_header.scss);
-@import url(./Layouts/_products.scss);
+@import url(./Layouts/carousel);
+@import url(./Layouts/footer);
+@import url(./Layouts/header);
+@import url(./Layouts/products);
 
 
 // Pages
 
 
 // Theme
+
+.header-menu {
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+    height: 50px;
+
+    .hd1{
+        width: 50%;
+        align-items: center;
+        img{
+            margin-top: 10px;
+            margin-left: 25%;
+            width: 50px;
+            height: 50px;
+        }
+    }
+    
+    .hd2 {
+        a{
+            text-transform: uppercase;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 16px;
+            color: var(--link-click);
+            text-align: center;
+            display: inline-block;
+            margin-top: 20px;
+        }
+    }
+    
+}
+

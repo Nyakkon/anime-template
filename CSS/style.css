@@ -23,5 +23,31 @@
 
 }
 
+@font-face {
+    font-family: Google;
+    src: url(../font/static/DancingScript-Bold.ttf);
+}
+
+@font-face {
+    font-family: Google;
+    src: url(../font/static/DancingScript-Medium.ttf);
+}
+
+@font-face {
+    font-family: Google;
+    src: url(../font/static/DancingScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: Google;
+    src: url(../font/static/DancingScript-SemiBold.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+
+
 
 
