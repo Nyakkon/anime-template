@@ -41,66 +41,66 @@
 
 // Theme
 
-.header-menu {
-    background-color: transparent;
-    display: flex;
-    width: 100%;
-    height: 50px;
-    z-index: 10;
+// .header-menu {
+//     background-color: transparent;
+//     display: flex;
+//     width: 100%;
+//     height: 50px;
+//     z-index: 10;
 
-    .hd1{
-        width: 50%;
-        align-items: center;
-        img{
-            margin-top: 20px;
-            margin-left: 25%;
-            width: 50px;
-            height: 50px;
-        }
-    }
+//     .hd1{
+//         width: 50%;
+//         align-items: center;
+//         img{
+//             margin-top: 20px;
+//             margin-left: 25%;
+//             width: 50px;
+//             height: 50px;
+//         }
+//     }
     
-    .hd2 {
-        flex-direction: row;
-        display: flex;
-        a{
-            font-family: 'Times New Roman', Times, serif;
-            // font-family: 'Google', sans-serif;
-            // font-weight: 700;
-            // text-transform: uppercase;
-            text-decoration: none;
-            margin-right: 50px;
-            font-size: 16px;
-            color: var(--link-click);
-            text-align: center;
-            display: block;
-            margin-top: 30px;
-            position: relative;
+//     .hd2 {
+//         flex-direction: row;
+//         display: flex;
+//         a{
+//             font-family: 'Times New Roman', Times, serif;
+//             // font-family: 'Google', sans-serif;
+//             // font-weight: 700;
+//             // text-transform: uppercase;
+//             text-decoration: none;
+//             margin-right: 50px;
+//             font-size: 16px;
+//             color: var(--link-click);
+//             text-align: center;
+//             display: block;
+//             margin-top: 30px;
+//             position: relative;
 
-        }
-        a:hover{
-            color: var(--link-hover);
-            font-size: 17px;
+//         }
+//         a:hover{
+//             color: var(--link-hover);
+//             font-size: 17px;
 
-        }
+//         }
 
-        a::after{
-            content: "";
-            left: 0;
-            bottom: 0;
-            background-color: var(--link-hover);
-            width: 0;
-            height: 1px;
-            position: absolute;
-            transition: all 0.5s;
-            z-index: 1000;
-            // margin-bottom: 9px;
-            margin-left: 10%;
-        }
+//         a::after{
+//             content: "";
+//             left: 0;
+//             bottom: 0;
+//             background-color: var(--link-hover);
+//             width: 0;
+//             height: 1px;
+//             position: absolute;
+//             transition: all 0.5s;
+//             z-index: 1000;
+//             // margin-bottom: 9px;
+//             margin-left: 10%;
+//         }
         
-        a:hover::after{
-          width: 80%
-        }
-    }
+//         a:hover::after{
+//           width: 80%
+//         }
+//     }
     
-}
+// }
 
